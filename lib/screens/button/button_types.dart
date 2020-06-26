@@ -60,6 +60,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Standard Buttons',
@@ -90,6 +91,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Pills Buttons',
@@ -120,6 +122,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Square Buttons',
@@ -150,6 +153,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Shadow Buttons',
@@ -179,6 +183,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                           color: Colors.black.withOpacity(0.40), blurRadius: 5)
                     ]),
                 child: GFListTile(
+                  margin: EdgeInsets.all(6),
                   color: GFColors.DARK,
                   title: const Text(
                     'Icons Buttons',
@@ -211,6 +216,7 @@ class _ButtonTypesState extends State<ButtonTypes> {
                           color: Colors.black.withOpacity(0.40), blurRadius: 5)
                     ]),
                 child: GFListTile(
+                  margin: EdgeInsets.all(6),
                   color: GFColors.DARK,
                   title: const Text(
                     'Social Buttons',

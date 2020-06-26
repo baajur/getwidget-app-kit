@@ -76,22 +76,6 @@ class _SocialButtonsState extends State<SocialButtons> {
                           buttonBoxShadow: true,
                         ),
                       ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      Expanded(
-                        child: GFButton(
-                          onPressed: () {},
-                          child: const Text('Whatsap'),
-                          icon: const Icon(
-                            IconData(0xe906, fontFamily: 'GFSocialFonts'),
-                            color: Colors.white,
-                            size: 20,
-                          ),
-                          color: const Color(0xFF25D366),
-                          buttonBoxShadow: true,
-                        ),
-                      )
                     ],
                   ),
                   const SizedBox(
@@ -100,6 +84,22 @@ class _SocialButtonsState extends State<SocialButtons> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
+                      Expanded(
+                        child: GFButton(
+                          onPressed: () {},
+                          child: const Text('Whatsapp'),
+                          icon: const Icon(
+                            IconData(0xe906, fontFamily: 'GFSocialFonts'),
+                            color: Colors.white,
+                            size: 20,
+                          ),
+                          color: const Color(0xFF25D366),
+                          buttonBoxShadow: true,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
                       Expanded(
                         child: GFButton(
                           onPressed: () {},
@@ -113,41 +113,40 @@ class _SocialButtonsState extends State<SocialButtons> {
                           buttonBoxShadow: true,
                         ),
                       ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      Expanded(
-                        child: GFButton(
-                          onPressed: () {},
-                          child: const Text('Dribble'),
-                          icon: const Icon(
-                            IconData(0xe904, fontFamily: 'GFSocialFonts'),
-                            color: Colors.white,
-                          ),
-                          color: const Color(0xFFEA4C89),
-                          buttonBoxShadow: true,
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      Expanded(
-                        child: GFButton(
-                          onPressed: () {},
-                          child: const Text('LinkedIn'),
-                          icon: const Icon(
-                            IconData(0xe903, fontFamily: 'GFSocialFonts'),
-                            color: Colors.white,
-                          ),
-                          color: const Color(0xFF0E76A8),
-                          buttonBoxShadow: true,
-                        ),
-                      )
                     ],
                   ),
                   const SizedBox(
                     height: 10,
                   ),
+                  Row(children: [
+                    Expanded(
+                      child: GFButton(
+                        onPressed: () {},
+                        child: const Text('Dribble'),
+                        icon: const Icon(
+                          IconData(0xe904, fontFamily: 'GFSocialFonts'),
+                          color: Colors.white,
+                        ),
+                        color: const Color(0xFFEA4C89),
+                        buttonBoxShadow: true,
+                      ),
+                    ),
+                    const SizedBox(
+                      width: 6,
+                    ),
+                    Expanded(
+                      child: GFButton(
+                        onPressed: () {},
+                        child: const Text('LinkedIn'),
+                        icon: const Icon(
+                          IconData(0xe903, fontFamily: 'GFSocialFonts'),
+                          color: Colors.white,
+                        ),
+                        color: const Color(0xFF0E76A8),
+                        buttonBoxShadow: true,
+                      ),
+                    )
+                  ]),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
@@ -181,27 +180,30 @@ class _SocialButtonsState extends State<SocialButtons> {
                           buttonBoxShadow: true,
                         ),
                       ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      Expanded(
-                        child: GFButton(
-                          onPressed: () {},
-                          child: const Text('Pinterest'),
-                          icon: const Icon(
-                            IconData(0xe900, fontFamily: 'GFSocialFonts'),
-                            color: Colors.white,
-                            size: 20,
-                          ),
-                          color: const Color(0XFFC8232C),
-                          buttonBoxShadow: true,
-                        ),
-                      )
                     ],
                   ),
                   const SizedBox(
                     height: 10,
                   ),
+                  Row(children: [
+                    Expanded(
+                      child: GFButton(
+                        onPressed: () {},
+                        child: const Text('Pinterest'),
+                        icon: const Icon(
+                          IconData(0xe900, fontFamily: 'GFSocialFonts'),
+                          color: Colors.white,
+                          size: 20,
+                        ),
+                        color: const Color(0XFFC8232C),
+                        buttonBoxShadow: true,
+                      ),
+                    ),
+                    const SizedBox(
+                      width: 6,
+                    ),
+                    Expanded(child: Text(''))
+                  ])
                 ],
               ),
             ),

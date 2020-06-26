@@ -11,7 +11,11 @@ class _SearchbarState extends State<Searchbar> {
   Widget build(BuildContext context) => Scaffold(
         appBar: GFAppBar(
           backgroundColor: GFColors.DARK,
-          title: const Text('UI Kit'),
+          title: const Text(
+            'UI Kit',
+            style: TextStyle(
+                fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
+          ),
           searchBar: true,
           actions: <Widget>[
             GFIconButton(

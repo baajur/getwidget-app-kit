@@ -49,7 +49,7 @@ class _BadgesPageState extends State<BadgesPage> {
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
-                            size: GFSize.MEDIUM,
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -58,11 +58,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -72,11 +73,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 24,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -95,6 +97,7 @@ class _BadgesPageState extends State<BadgesPage> {
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -104,11 +107,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -118,11 +122,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -141,6 +146,7 @@ class _BadgesPageState extends State<BadgesPage> {
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -150,11 +156,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),
@@ -165,11 +172,12 @@ class _BadgesPageState extends State<BadgesPage> {
                         ),
                       ),
                       const SizedBox(
-                        width: 6,
+                        width: 3,
                       ),
                       Expanded(
                         child: GFButtonBadge(
                           icon: const GFBadge(
+                            size: 25,
                             text: '6',
                             shape: GFBadgeShape.pills,
                           ),

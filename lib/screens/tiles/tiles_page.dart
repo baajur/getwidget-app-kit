@@ -41,6 +41,7 @@ class _TilesPageState extends State<TilesPage> {
             ),
             GFCard(
               content: GFListTile(
+                margin: EdgeInsets.all(0),
                 titleText: 'Title',
                 subtitleText: 'Open source UI library',
                 icon: Icon(Icons.favorite),
@@ -48,6 +49,7 @@ class _TilesPageState extends State<TilesPage> {
             ),
             GFCard(
               content: GFListTile(
+                margin: EdgeInsets.all(0),
                 avatar: Icon(Icons.favorite),
                 titleText: 'Title',
                 icon: const Text('Caption'),
@@ -64,6 +66,7 @@ class _TilesPageState extends State<TilesPage> {
             ),
             const GFCard(
               content: GFListTile(
+                margin: EdgeInsets.all(0),
                 avatar: GFAvatar(
                   backgroundImage: AssetImage('lib/assets/images/avatar5.png'),
                 ),
@@ -73,6 +76,7 @@ class _TilesPageState extends State<TilesPage> {
             ),
             const GFCard(
               content: GFListTile(
+                margin: EdgeInsets.all(0),
                 avatar: GFAvatar(
                   shape: GFAvatarShape.standard,
                   backgroundImage: AssetImage('lib/assets/images/avatar11.png'),

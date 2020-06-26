@@ -39,7 +39,7 @@ class _SegmentTabsPageState extends State<SegmentTabsPage>
               )),
           title: const Text(
             'Segmented Tabs',
-            style: TextStyle(fontSize: 17),
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
           ),
           centerTitle: true,
         ),

@@ -142,7 +142,7 @@ class _CarouselState extends State<Carousel>
                                       Radius.circular(4)),
                                   content: Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 30, left: 0),
+                                        const EdgeInsets.only(top: 20, left: 0),
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.center,
@@ -182,6 +182,7 @@ class _CarouselState extends State<Carousel>
                           ),
                         ),
                         GFItemsCarousel(
+                          itemHeight: 110,
                           rowCount: 3,
                           children: assetImg
                               .map(
@@ -211,7 +212,7 @@ class _CarouselState extends State<Carousel>
                                         padding:
                                             EdgeInsets.only(right: 5, top: 10),
                                         child: Text(
-                                          'GetWidget is an open source library that comes with pre-build 1000+ UI components ',
+                                          'GetWidget is an open source library  ',
                                           style: TextStyle(
                                             fontSize: 10,
                                             color: GFColors.LIGHT,
@@ -367,10 +368,11 @@ class _CarouselState extends State<Carousel>
                         ),
                         GFItemsCarousel(
                           rowCount: 3,
+                          itemHeight: 100,
                           children: imageList
                               .map(
                                 (url) => GFImageOverlay(
-                                  height: 400,
+                                  height: 30,
                                   width: 300,
                                   margin:
                                       const EdgeInsets.only(left: 15, right: 5),

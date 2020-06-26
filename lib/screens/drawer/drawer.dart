@@ -27,6 +27,8 @@ import '../../screens/tiles/tiles_page.dart';
 import '../../screens/toast/toasts.dart';
 import '../../screens/toggle/toggles.dart';
 import '../../screens/typography/typography.dart';
+import '../checkbox/checkboxs.dart';
+import '../radiobutton/radio_buttons.dart';
 
 class DrawerPage extends StatefulWidget {
   @override
@@ -88,7 +90,7 @@ class _DrawerPageState extends State<DrawerPage> {
                       height: 5,
                     ),
                     Text(
-                      'GetFlutter',
+                      'GetWidget',
                       style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w500,
@@ -98,7 +100,7 @@ class _DrawerPageState extends State<DrawerPage> {
                       height: 5,
                     ),
                     const Text(
-                      'info@getflutter.dev',
+                      'ionicfirebaseapp@gmail.com',
                       style: TextStyle(color: Colors.white),
                     ),
                   ],
@@ -754,6 +756,58 @@ class _DrawerPageState extends State<DrawerPage> {
                               ),
                             ),
                           ),
+                          InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        CheckBoxPage()),
+                              );
+                            },
+                            child: GFListTile(
+                              title: const Text(
+                                'Checkbox',
+                                style: TextStyle(
+                                  color: Colors.black87,
+                                ),
+                              ),
+                              avatar: Icon(
+                                const IconData(
+                                  0xe900,
+                                  fontFamily: 'GFIcons',
+                                ),
+                                color: GFColors.DARK,
+                                size: 17,
+                              ),
+                            ),
+                          ),
+                          InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        RadioButtonPage()),
+                              );
+                            },
+                            child: GFListTile(
+                              title: const Text(
+                                'RadioButton',
+                                style: TextStyle(
+                                  color: Colors.black87,
+                                ),
+                              ),
+                              avatar: Icon(
+                                const IconData(
+                                  0xe900,
+                                  fontFamily: 'GFIcons',
+                                ),
+                                color: GFColors.DARK,
+                                size: 17,
+                              ),
+                            ),
+                          ),
                         ]),
                       )),
                   InkWell(
@@ -762,7 +816,7 @@ class _DrawerPageState extends State<DrawerPage> {
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) => const WebViews(
-                              url: 'https://docs.getflutter.dev/'),
+                              url: 'https://docs.getwidget.dev/'),
                         ),
                       );
                     },
@@ -781,7 +835,7 @@ class _DrawerPageState extends State<DrawerPage> {
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) => const WebViews(
-                              url: 'https://www.getflutter.dev/features'),
+                              url: 'https://www.getwidget.dev/features'),
                         ),
                       );
                     },

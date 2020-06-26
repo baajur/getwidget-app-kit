@@ -23,8 +23,9 @@ import '../screens/toast/toasts.dart';
 import '../screens/toggle/toggles.dart';
 import '../screens/typography/typography.dart';
 import '../screens/checkbox/checkboxs.dart';
-import '../screens/checkboxlisttile/checkbox_list_tile_page.dart';
+// import '../screens/checkboxlisttile/checkbox_list_tile_page.dart';
 import '../screens/radiobutton/radio_buttons.dart';
+import 'radiobutton/radio_buttons.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -206,8 +207,8 @@ class _HomePageState extends State<HomePage> {
         0xe900,
         fontFamily: 'GFFontIcons2',
       ),
-      'title': 'CheckboxListTile',
-      'route': CheckBoxListTilePage()
+      'title': 'RadioButton',
+      'route': RadioButtonPage()
     }
   ];
 
@@ -217,7 +218,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           backgroundColor: GFColors.DARK,
           title: Image.asset(
-            'lib/assets/icons/gflogo.png',
+            'lib/assets/icons/gwlogo.png',
             width: 150,
           ),
           centerTitle: true,
@@ -247,17 +248,17 @@ class _HomePageState extends State<HomePage> {
                               gfComponents[index]['icon'],
                               gfComponents[index]['route']))),
             ),
-            Container(
-              height: 160,
-              margin: const EdgeInsets.only(left: 15, bottom: 20, right: 15),
-              child: buildSquareTile(
-                  'RadioButton',
-                  const IconData(
-                    0xe900,
-                    fontFamily: 'GFIcons',
-                  ),
-                  RadioButtonPage()),
-            )
+            // Container(
+            //   height: 160,
+            //   margin: const EdgeInsets.only(left: 15, bottom: 20, right: 15),
+            //   child: buildSquareTile(
+            //       'RadioButton',
+            //       const IconData(
+            //         0xe900,
+            //         fontFamily: 'GFIcons',
+            //       ),
+            //       RadioButtonPage()),
+            // )
           ],
         ),
       );

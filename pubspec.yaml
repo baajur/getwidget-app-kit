@@ -51,6 +51,7 @@ flutter:
     - lib/assets/images/avatar12.png
     - lib/assets/gif/success1.gif
     - lib/assets/icons/gflogo.png
+    - lib/assets/icons/gwlogo.png
 
   fonts:
     - family: GFFontIcons

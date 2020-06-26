@@ -39,7 +39,7 @@ class _IconTabsState extends State<IconTabs>
               )),
           title: const Text(
             'Icon Tabs',
-            style: TextStyle(fontSize: 17),
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
           ),
           centerTitle: true,
         ),

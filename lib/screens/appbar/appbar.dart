@@ -31,7 +31,11 @@ class _AppbarState extends State<Appbar> {
             ),
           ),
           backgroundColor: GFColors.DARK,
-          title: const Text('UI Kit'),
+          title: Text(
+            'UI Kit',
+            style: TextStyle(
+                fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
+          ),
           actions: <Widget>[
             GFIconButton(
               icon: Icon(

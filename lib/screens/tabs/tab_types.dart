@@ -30,7 +30,7 @@ class _TabTypesState extends State<TabTypes> {
           ),
           title: const Text(
             'Tabs',
-            style: TextStyle(fontSize: 17),
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
           ),
           centerTitle: true,
         ),
@@ -59,6 +59,7 @@ class _TabTypesState extends State<TabTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Segmented Tabs',
@@ -88,6 +89,7 @@ class _TabTypesState extends State<TabTypes> {
                           color: Colors.black.withOpacity(0.40), blurRadius: 5)
                     ]),
                 child: GFListTile(
+                  margin: EdgeInsets.all(6),
                   color: GFColors.DARK,
                   title: const Text(
                     'Icon Tabs',
@@ -120,6 +122,7 @@ class _TabTypesState extends State<TabTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Labeled Tabs',
@@ -150,6 +153,7 @@ class _TabTypesState extends State<TabTypes> {
                             blurRadius: 5)
                       ]),
                   child: GFListTile(
+                      margin: EdgeInsets.all(6),
                       color: GFColors.DARK,
                       title: const Text(
                         'Bottom Icon Tabs',
@@ -181,6 +185,7 @@ class _TabTypesState extends State<TabTypes> {
                       )
                     ]),
                 child: GFListTile(
+                  margin: EdgeInsets.all(6),
                   color: GFColors.DARK,
                   title: const Text(
                     'Bottom Labeled Tabs',

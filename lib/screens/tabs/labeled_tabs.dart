@@ -39,7 +39,7 @@ class _LabeledTabsState extends State<LabeledTabs>
               )),
           title: const Text(
             'Labeled Tabs',
-            style: TextStyle(fontSize: 17),
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
           ),
           centerTitle: true,
         ),

@@ -29,7 +29,7 @@ class _TogglesState extends State<Toggles> {
           centerTitle: true,
         ),
         body: Container(
-          child: Column(
+          child: ListView(
             children: <Widget>[
               const Padding(
                 padding: EdgeInsets.only(left: 15, top: 30, bottom: 10),

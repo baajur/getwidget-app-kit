@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/scheduler.dart' show timeDilation;
+// import 'package:flutter/scheduler.dart' show timeDilation;
 
 class CheckBoxListTilePage extends StatefulWidget {
   @override

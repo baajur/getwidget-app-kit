@@ -90,12 +90,13 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const <Widget>[
-                              GFImageOverlay(
+                              Expanded(
+                                  child: GFImageOverlay(
                                 height: 200,
                                 width: 300,
                                 image:
                                     AssetImage('lib/assets/images/image2.png'),
-                              )
+                              ))
                             ],
                           ),
                         ),
@@ -103,12 +104,13 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const <Widget>[
-                              GFImageOverlay(
+                              Expanded(
+                                  child: GFImageOverlay(
                                 height: 200,
                                 width: 300,
                                 image:
                                     AssetImage('lib/assets/images/image.png'),
-                              )
+                              ))
                             ],
                           ),
                         ),
@@ -116,12 +118,13 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const <Widget>[
-                              GFImageOverlay(
+                              Expanded(
+                                  child: GFImageOverlay(
                                 height: 200,
                                 width: 300,
                                 image:
                                     AssetImage('lib/assets/images/image1.png'),
-                              )
+                              ))
                             ],
                           ),
                         ),
@@ -135,20 +138,25 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: const <Widget>[
-                              GFImageOverlay(
-                                height: 140,
-                                width: 140,
-                                shape: BoxShape.circle,
-                                image: AssetImage('lib/assets/images/img.png'),
+                              Expanded(
+                                child: GFImageOverlay(
+                                  height: 140,
+                                  width: 140,
+                                  shape: BoxShape.circle,
+                                  image:
+                                      AssetImage('lib/assets/images/img.png'),
+                                ),
                               ),
-                              GFImageOverlay(
+                              SizedBox(width: 10),
+                              Expanded(
+                                  child: GFImageOverlay(
                                 height: 140,
                                 width: 140,
                                 shape: BoxShape.circle,
                                 image: AssetImage(
                                   'lib/assets/images/img1.png',
                                 ),
-                              )
+                              ))
                             ],
                           ),
                         ),
@@ -175,21 +183,23 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              GFImageOverlay(
-                                height: 200,
-                                width: 300,
-                                child: const Center(
-                                  child: Text(
-                                    'Light Overlay',
-                                    style: TextStyle(color: GFColors.WHITE),
+                              Expanded(
+                                child: GFImageOverlay(
+                                  height: 200,
+                                  width: 300,
+                                  child: const Center(
+                                    child: Text(
+                                      'Light Overlay',
+                                      style: TextStyle(color: GFColors.WHITE),
+                                    ),
                                   ),
+                                  colorFilter: ColorFilter.mode(
+                                      Colors.black.withOpacity(0.20),
+                                      BlendMode.darken),
+                                  image: const AssetImage(
+                                      'lib/assets/images/image1.png'),
                                 ),
-                                colorFilter: ColorFilter.mode(
-                                    Colors.black.withOpacity(0.20),
-                                    BlendMode.darken),
-                                image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
-                              ),
+                              )
                             ],
                           ),
                         ),
@@ -197,20 +207,22 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              GFImageOverlay(
-                                height: 200,
-                                width: 300,
-                                child: const Center(
-                                    child: Text(
-                                  'Medium Overlay',
-                                  style: TextStyle(color: GFColors.WHITE),
-                                )),
-                                colorFilter: ColorFilter.mode(
-                                    Colors.black.withOpacity(0.40),
-                                    BlendMode.darken),
-                                image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
-                              ),
+                              Expanded(
+                                child: GFImageOverlay(
+                                  height: 200,
+                                  width: 300,
+                                  child: const Center(
+                                      child: Text(
+                                    'Medium Overlay',
+                                    style: TextStyle(color: GFColors.WHITE),
+                                  )),
+                                  colorFilter: ColorFilter.mode(
+                                      Colors.black.withOpacity(0.40),
+                                      BlendMode.darken),
+                                  image: const AssetImage(
+                                      'lib/assets/images/image1.png'),
+                                ),
+                              )
                             ],
                           ),
                         ),
@@ -218,20 +230,22 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              GFImageOverlay(
-                                height: 200,
-                                width: 300,
-                                child: const Center(
-                                    child: Text(
-                                  'Strong Overlay',
-                                  style: TextStyle(color: GFColors.WHITE),
-                                )),
-                                colorFilter: ColorFilter.mode(
-                                    Colors.black.withOpacity(0.60),
-                                    BlendMode.darken),
-                                image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
-                              ),
+                              Expanded(
+                                child: GFImageOverlay(
+                                  height: 200,
+                                  width: 300,
+                                  child: const Center(
+                                      child: Text(
+                                    'Strong Overlay',
+                                    style: TextStyle(color: GFColors.WHITE),
+                                  )),
+                                  colorFilter: ColorFilter.mode(
+                                      Colors.black.withOpacity(0.60),
+                                      BlendMode.darken),
+                                  image: const AssetImage(
+                                      'lib/assets/images/image1.png'),
+                                ),
+                              )
                             ],
                           ),
                         )
